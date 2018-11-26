@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+.Header, .container-fluid{
+  padding : 0!important;
+  margin : 0!important;
+}
+.bg-custom{
+  background:url(../../assets/img/bg.gif) left top repeat-x;
+  height : 71px;
+}
+.navbar-toggler{
+  background-color : grey!important;
+}
+.navbar-nav .nav-item .nav-link{
+  color : black!important;
+  font-weight : 700;
+  padding : 25px 55px!important;
+  border : 1px solid #e6e6e6;
+  font-family: 'Aref Ruqaa', serif;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color : white!important;
+}
+.navbar-nav .nav-item:hover{
+  background-color : black;
+}
+.orange{
+  color : orange;
+}
+.head-text{
+   padding : 1%!important;
+}
+.head-text .row{
+  padding : 0!important;
+  margin : 0!important;
+}
+.head-text .row h1{
+  margin-left : 10%;
+  transform : scale(1.1, 1.5)!important;
+}
+.head-text .row h1 span {
+   font-size : 0.65em!important;
+   color : #8c8c8c;
+}
+.head-text .row .offset-md-4{
+  padding-top : 2%;
+}
+.form-input{
+  border : 1px solid #bfbfbf!important;
+}
+.fa-search{
+  position: absolute;
+  float : right;
+  top : 50%;
+  left : 180%;
+  z-index  : 99;
+}
+@media screen and (max-width : 768px){
+   .fa-search{
+     left : 72%;
+     top : 44%;
+   }
+   .navbar{
+     z-index : 9999;
+   }
+   .navbar-toggler{
+     z-index: 99999;
+   }
+   .navbar-collapse{
+     background-color : orange;
+     z-index : 100;
+   }
+   .head-text .row h1{
+        margin-left : 0%;
+        font-size : 1.5em;        
+   }
+}
